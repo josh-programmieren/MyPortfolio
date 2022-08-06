@@ -1,0 +1,58 @@
+body {
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+#disclaimer {
+    font-size: 20px;
+    color: #fff;
+    background-color: #f50617;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#set-up-form {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #ccc;
+}
+
+#project-data {
+    margin-top: 20px;
+    background-color: #0ff;
+}
+
+#personal-data {
+    margin-top: 20px;
+    background-color: #f0f;
+}
+
+#submit-button {
+    margin-top: 20px;
+    background-color: #00f;
+}
+
+#submit-button input {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#submit-button input:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+footer {
+    font-size: 12px;
+    color: #fff;
+    background-color: #f50617;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

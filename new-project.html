@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Set up a new project</title>
+    <link rel="stylesheet" href="css/new-project.css">
+</head>
+
+<body>
+    <h1>You have a project idea for me - great!</h1>
+    <div id="disclaimer">
+        <strong>
+            DISCLAIMER: I still go to school. I am not a professional developer. I am a student.
+            <br>
+            When you give me your project idea, I will try to make it happen. It can take a while to get a project done.
+        </strong>
+    </div>
+    <div id="set-up-form">
+        <h2>Set up a project</h2>
+        <strong>The data you submit will be sent to Netlify, the hoster of the website. I use "Netlify form submissions" to get your data.</strong>
+        <form action="" method="post" name="project-idea" data-netlify="true">
+            <div id="project-data">
+                <h3 align="center">Project data:</h3>
+                <br>
+                <label for="project-name">Project name:</label>
+                <br>
+                <input type="text" name="project-name" id="project-name" placeholder="Project name">
+                <br>
+                <label for="project-description">Project description:</label>
+                <br>
+                <textarea name="project-description" id="project-description" cols="30" rows="10" placeholder="Project description"></textarea>
+                <br>
+                <label for="supported-platforms">Platforms to support:</label>
+                <br>
+                <input type="checkbox" name="supported-platforms[]" value="web"> Web<br>
+                <input type="checkbox" name="supported-platforms[]" value="android"> Android<br>
+                <input type="checkbox" name="supported-platforms[]" value="ios"> iOS<br>
+                <input type="checkbox" name="supported-platforms[]" value="windows"> Windows<br>
+                <input type="checkbox" name="supported-platforms[]" value="mac"> Mac<br>
+                <input type="checkbox" name="supported-platforms[]" value="linux"> Linux<br>
+            </div>
+            <div id="personal-data">
+                <h3>Personal data</h3>
+                <br>
+                <label for="name">Name: *</label>
+                <br>
+                <input type="text" name="name" id="name" placeholder="Name">
+                <br>
+                <label for="email">Email: **</label>
+                <br>
+                <input type="email" name="email" id="email" placeholder="Email">
+            </div>
+            <div id="submit-button">
+                <h3>Submit your idea:</h3>
+                <br> If you want to submit your project idea, click the button below.
+                <br>
+                <input type="submit" value="Submit">
+        </form>
+        </div>
+    </div>
+    <footer>
+        <p>
+            * - I use your name to know how to contact you. If you want, you can use a nickname instead of your real name.
+        </p>
+        <p>
+            ** - I use your email for communication purposes only. I will not use your email for any other purpose.
+        </p>
+    </footer>
+</body>
+
+</html>
