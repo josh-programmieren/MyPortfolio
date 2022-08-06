@@ -1,0 +1,71 @@
+/* Styling the body element */
+
+body {
+    background-color: #f5f5f5;
+    color: #000;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+
+
+/* Styling the unordered list in the header */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header ul li a {
+    color: #123456;
+    background-color: #654321;
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    text-decoration: none;
+}
+
+header ul li a:hover {
+    background-color: #456123;
+    color: #321654;
+}
+
+
+/* General styling of div elements */
+
+div {
+    margin: 0;
+    padding: 0;
+    border-bottom: 2px solid #ccc;
+}
+
+#html {
+    background-color: #f01;
+    color: #fff;
+}
+
+#css {
+    background-color: #0f0;
+    color: #012;
+}
+
+#js {
+    background-color: #ff0;
+    color: #123456;
+}
+
+#ts {
+    background-color: #011;
+    color: #456123;
+}
+
+#python {
+    background-color: #101;
+    color: #456123;
+}
